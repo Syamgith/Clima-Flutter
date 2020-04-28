@@ -3,14 +3,13 @@
 
 
 
-![](screenshots/ss1.jpg)
+![](screenshots/ss1.png)
 
-![](Screenshots/ss2.jpg)
-![](Screenshots/ss3.jpg)
-![](Screenshots/ss4.jpg)
-![](Screenshots/ss5.jpg)
+![](Screenshots/ss2.png)
+![](Screenshots/ss3.png)
+![](Screenshots/ss4.png)
+![](Screenshots/ss5.png)
 
 
 ****
 
-**Developed by - Syamgith** :)
