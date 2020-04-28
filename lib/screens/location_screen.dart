@@ -98,7 +98,7 @@ class _LocationScreenState extends State<LocationScreen> {
               Expanded(
                 flex: 3,
                 child: Padding(
-                  padding: EdgeInsets.only(left: 25.0, top: 25.0),
+                  padding: EdgeInsets.only(left: 25.0, top: 40.0),
                   child: Row(
                     crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: <Widget>[

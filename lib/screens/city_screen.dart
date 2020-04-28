@@ -49,13 +49,17 @@ class _CityScreenState extends State<CityScreen> {
                 color: Colors.black54,
                 shape: RoundedRectangleBorder(
                   borderRadius: new BorderRadius.circular(10.0),
+                  side: BorderSide(color: Colors.white),
                 ),
                 onPressed: () {
                   Navigator.pop(context, cityName);
                 },
-                child: Text(
-                  'Get Weather',
-                  style: kButtonTextStyle,
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Text(
+                    'Get Weather',
+                    style: kButtonTextStyle,
+                  ),
                 ),
               ),
             ],
