@@ -98,7 +98,7 @@ class _LocationScreenState extends State<LocationScreen> {
               Expanded(
                 flex: 3,
                 child: Padding(
-                  padding: EdgeInsets.only(left: 15.0, top: 25.0),
+                  padding: EdgeInsets.only(left: 25.0, top: 25.0),
                   child: Row(
                     crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: <Widget>[
@@ -117,10 +117,11 @@ class _LocationScreenState extends State<LocationScreen> {
               Expanded(
                 flex: 1,
                 child: Padding(
-                  padding: EdgeInsets.only(right: 15.0, bottom: 20, left: 15.0),
+                  padding: EdgeInsets.only(
+                      right: 10.0, bottom: 20, left: 25.0, top: 15),
                   child: Text(
                     '$msg in $cityName',
-                    textAlign: TextAlign.right,
+                    textAlign: TextAlign.left,
                     style: kMessageTextStyle,
                   ),
                 ),
