@@ -1,4 +1,5 @@
 import 'package:clima/utilities/constants.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class CityScreen extends StatefulWidget {
@@ -25,7 +26,9 @@ class _CityScreenState extends State<CityScreen> {
               Align(
                 alignment: Alignment.topLeft,
                 child: FlatButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pop(context);
+                  },
                   child: Icon(
                     Icons.arrow_back_ios,
                     size: 50.0,
@@ -42,7 +45,11 @@ class _CityScreenState extends State<CityScreen> {
                   },
                 ),
               ),
-              FlatButton(
+              RaisedButton(
+                color: Colors.black54,
+                shape: RoundedRectangleBorder(
+                  borderRadius: new BorderRadius.circular(10.0),
+                ),
                 onPressed: () {
                   Navigator.pop(context, cityName);
                 },
