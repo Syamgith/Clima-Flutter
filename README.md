@@ -5,10 +5,10 @@
 
 ![](screenshots/ss1.png)
 
-![](Screenshots/ss2.png)
-![](Screenshots/ss3.png)
-![](Screenshots/ss4.png)
-![](Screenshots/ss5.png)
+![](screenshots/ss2.png)
+![](screenshots/ss3.png)
+![](screenshots/ss4.png)
+![](screenshots/ss5.png)
 
 
 ****
